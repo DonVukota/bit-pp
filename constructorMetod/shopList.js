@@ -36,13 +36,15 @@
     }
     
     var banana = new Product("banana", 100.23, "August 19, 2975 23:15:30")
+    var ananas = new Product("ananas", 99.99, "23/10/2018" )
     var sb = new ShopingBag();
-    console.log(sb.addProduct(banana));
+   
 
-    console.log(sb.addProduct(banana,));
-    console.log(sb.addProduct(banana));
+  
     console.log(banana.getInfo());
-    console.log(sb.list);
+    console.log(ananas.getInfo());
+    
+    
     
     
 
